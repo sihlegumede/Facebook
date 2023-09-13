@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.148);
+    overflow: hidden;
+}
+.container-flex-box{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1068px;
+    position: absolute;
+    top:15%;
+    left: 12%;
+}
+.content img{
+    width: 20vw;
+    margin-top: 2.5rem;
+}
+.content p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.content{
+    padding: 1rem;
+}
+.content form{
+    background-color: #fff;
+    height: 50vh;
+    width: 25vw;
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 2px 3px 5px ;
+    padding: 1rem;
+    
+}
+.content input{
+    border: 1px solid rgba(128, 128, 128, 0.342);
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    outline: none;
+}
+#login-password{
+    width: 100%;
+}
+#login-btn{
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 255, 0.696);
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+.forgot-password{
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.8rem;
+}
+#login-create-acc{
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.1rem;
+    background-color:rgb(103, 172, 0);
+    margin-top: 0.8rem;
+    margin-left: 5rem;
+    padding: 0.5rem;
+}
+#login-create-acc:hover{
+    background-color:rgb(110, 183, 1);
+
+}
+.create-a-page{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.sign-up-name{
+    border: 1px solid rgba(128, 128, 128, 0.342);
+    border-radius: 0.5rem;
+    width: 49%;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    outline: none;
+}
+.sign-up-surname{
+    border: 1px solid rgba(128, 128, 128, 0.342);
+    border-radius: 0.5rem;
+    width: 49%;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    outline: none;
+}
+.sign-up-input{
+    border: 1px solid rgba(128, 128, 128, 0.342);
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    outline: none;
+}
+.form-select{
+    width: 10vw;
+}
+.form-flex-box{
+    display: flex;
+    justify-content: space-between;
+}
+.form-check-flex-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    text-align: center;
+}
+.form-check{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(128, 128, 128, 0.342);
+    border-radius: 0.5rem;
+    width: 90%;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    outline: none;
+}
+.modal-footer{
+    font-size: 0.6rem;
+}
+.btn-sign-up{
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.1rem;
+    background-color:rgb(103, 172, 0);
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 1413px) {
+    .container-flex-box{
+        display: block;
+    }
+    .content form{
+        width: 70%;
+    }
+    #login-create-acc{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 837px) {
+    .content form{
+        width: 70%;
+    }
+    #login-create-acc{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 740px) {
+    .content form{
+        width: 80%;
+    }
+    #login-create-acc{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 461px) {
+    .content form{
+        width: 90%;
+    }
+    #login-create-acc{
+        display: flex;
+        justify-content: center;
+    }
+}
